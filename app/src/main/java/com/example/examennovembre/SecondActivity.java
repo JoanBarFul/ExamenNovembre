@@ -13,6 +13,7 @@ public class SecondActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.second_activity);
 
+
         ImageButton buttonSecond = findViewById(R.id.buttonMain);
 
         buttonSecond.setOnClickListener(new View.OnClickListener() {
